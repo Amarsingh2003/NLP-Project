@@ -5,9 +5,9 @@ import torch.nn.functional as F
 import faiss 
 import numpy as np
 import pickle
-import os
+# import os
 import streamlit as st
-os.environ['KMP_DUPLICATE_LIB_OK']='True'
+# os.environ['KMP_DUPLICATE_LIB_OK']='True'
 import google.generativeai as genai
 
 print('before class')
@@ -77,7 +77,8 @@ index.load_index('MLmodel\index.bin', 'MLmodel\doc_map.pkl')
 print('loaded index')
 model = genai.GenerativeModel('gemini-pro')
 
-genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+# genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+genai.configure(api_key="AIzaSyAwQWWxSuY_6YlBF-UaGNnnIt3AyGFvA6o")
 
 # query = "Iam kishan from uttarpradesh, and I want subsidy"
 
