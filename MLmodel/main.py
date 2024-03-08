@@ -72,7 +72,7 @@ model = semanticEmbedding()
 
 index = FaissIdx(model)
 
-index.load_index('MLmodel\index.bin', 'MLmodel\doc_map.pkl')
+index.load_index('index.bin', 'doc_map.pkl')
 # MLmodel\index.bin
 print('loaded index')
 model = genai.GenerativeModel('gemini-pro')
