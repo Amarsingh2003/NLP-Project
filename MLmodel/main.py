@@ -71,8 +71,8 @@ class FaissIdx:
 model = semanticEmbedding()
 
 index = FaissIdx(model)
-
-index.load_index('index.bin', 'doc_map.pkl')
+# /mount/src/nlp-project/MLmodel/main.py
+index.load_index('/mount/src/nlp-project/MLmodel/index.bin', '/mount/src/nlp-project/MLmodel/doc_map.pkl')
 # MLmodel\index.bin
 print('loaded index')
 model = genai.GenerativeModel('gemini-pro')
