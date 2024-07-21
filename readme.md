@@ -53,5 +53,5 @@ Thank you for joining us on this journey to empower citizens with information ab
 
 ## Project Report
 
-Look at the Methodology part to better understand project workflow . 
+Look at the Methodology part to better understand the project workflow . 
 [Download the PDF file](docs/NLP_project_report_pdf.pdf)
