@@ -52,4 +52,6 @@ Thank you for joining us on this journey to empower citizens with information ab
 [GitHub]: https://github.com/kishan2k2/NLP-Project
 
 ## Project Report
+
+Look at the Methodology part to better understand project workflow . 
 [Download the PDF file](docs/NLP_project_report_pdf.pdf)
