@@ -14,6 +14,15 @@ Welcome to our Natural Language Processing (NLP) minor project that addresses a 
 
 Our proposed solution involves the creation of a chatbot powered by a Large Language Model (LLM) based on advanced machine learning techniques. This chatbot will serve as an interactive medium, allowing users to inquire about different welfare schemes in a user-friendly manner. The chatbot's responses will be drawn from a vast and meticulously curated database containing information about all government initiatives.
 
+## Output
+
+![UI](docs/UI_ouput.png)
+
+![English query](docs/English_query_output.png)
+
+![Hindi query](docs/Hindi_query_output.png)
+
+
 ## Features
 
 1. **Multilingual Conversations:** The chatbot is designed to facilitate conversations in multiple languages, ensuring that a diverse range of users can easily access information about welfare schemes.
